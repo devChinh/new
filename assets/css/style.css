@@ -1,0 +1,148 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+}
+
+.app_img{
+height:400px
+}
+
+.app_img-world{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.app_img-stress{
+transform:translateY(-30%);
+margin-left: 20px;
+}
+
+.app_img-people{
+    transform: translateY(-80%);
+    margin-top: -60px;
+    margin-left: -30px;
+}
+
+.app_info h3{
+    font-size:20px;
+    text-align:center;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app_info p{
+text-align: center;
+font-weight: 300;
+}
+
+.span{
+    display: flex;
+    justify-content:center
+}
+.span1{
+    width: 10px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgb(243, 110, 33);
+    margin-right: 3px;
+}
+
+.span2{
+    margin:0 3px;
+    width: 5px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgb(240, 156, 108);
+}
+
+button{
+    margin-top:50px;
+    width:150px;
+    margin-left:110px;
+    background-color:rgb(243, 111, 35);
+    font-size: 25px;
+    padding:10px;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.4);
+}
+
+@media (max-width:400px) {
+    
+.apps{
+    display: flex;
+    flex-direction: column;
+}
+
+.app_img{
+height:400px
+}
+
+.app_img-world{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.app_img-stress{
+transform:translateY(-30%);
+margin-left: 20px;
+}
+
+.app_img-people{
+    transform: translateY(-80%);
+    margin-top: -60px;
+    margin-left: -30px;
+}
+
+.app_info h3{
+    font-size:20px;
+    text-align:center;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app_info p{
+text-align: center;
+font-weight: 300;
+}
+
+.span{
+    display: flex;
+    justify-content:center
+}
+.span1{
+    width: 10px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgb(243, 110, 33);
+    margin-right: 3px;
+}
+
+.span2{
+    margin:0 3px;
+    width: 5px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgb(240, 156, 108);
+}
+
+button{
+    margin-top:50px;
+    width:150px;
+    margin-left:110px;
+    background-color:rgb(243, 111, 35);
+    font-size: 25px;
+    padding:10px;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.4);
+}
+}
